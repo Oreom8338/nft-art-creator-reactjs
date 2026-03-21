@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Lato:wght@300&family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,400&family=Poppins:ital,wght@1,300;1,400&family=Protest+Riot&family=Ubuntu:ital@1&display=swap");
+html,
+body {
+  margin: 0;
+  /* font-family: "Archivo", Helvetica, sans-serif; */
+  font-family: "Archivo", sans-serif;
+}
+.layer_title {
+  font-family: "Archivo", sans-serif;
+}
+
+.collection_label {
+  font-size: "15px";
+  font-weight: 700;
+  color: black;
+}
+.custom-underline {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
